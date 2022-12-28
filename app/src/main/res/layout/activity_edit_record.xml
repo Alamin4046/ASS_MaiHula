@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".EditRecord">
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+      android:text="Edit Record"
+      android:textColor="@color/black"
+      android:gravity="center"
+      android:layout_margin="30dp"
+      />
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="id"
+       android:textColor="@color/black"
+       android:id="@+id/cid2"/>
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+      android:id="@+id/itemsName"
+      android:hint="items"
+       android:textColor="@color/black"
+      android:layout_marginLeft="20dp"
+       android:layout_marginTop="30dp"
+      />
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+      android:id="@+id/itemsqty"
+      android:hint="Quantity"
+      android:textColor="@color/black"
+      android:layout_marginLeft="20dp"
+       android:layout_marginTop="30dp"
+      />
+
+   <EditText
+       android:id="@+id/itemsPrice"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="20dp"
+       android:layout_marginTop="30dp"
+       android:hint="Prices"
+       android:textColor="@color/black" />
+   <RadioGroup
+       android:id="@+id/status"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:background="#ffffff">
+      <RadioButton
+          android:id="@+id/scredit"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Credit"
+          android:layout_margin="20dp"/>
+      <RadioButton
+          android:id="@+id/spaid"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Paid"
+          android:layout_margin="20dp"/>
+   </RadioGroup>
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="Description"
+       android:layout_margin="20dp"
+       android:inputType="text"
+       android:id="@+id/itemsdes"/>
+   <Button
+       android:id="@+id/updateRecord"
+       android:layout_width="match_parent"
+       android:layout_height="70dp"
+       android:layout_margin="10dp"
+       android:text="Update"
+       android:textSize="20sp"/>
+
+
+</LinearLayout>
