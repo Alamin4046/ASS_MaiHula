@@ -5,11 +5,32 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".New_item_list">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TOTAL:"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Total"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="XXXX"
+        />
+    </LinearLayout>
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="#ffffff"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="40dp"
         android:id="@+id/recyclerView12">
 
     </androidx.recyclerview.widget.RecyclerView>

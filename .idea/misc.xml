@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
@@ -6,15 +5,20 @@
         <entry key="..\:/Users/amain/AndroidStudioProjects/ASS_MaiHula/app/Android-Attendance-App-master/app/src/main/res/menu/main.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/amain/AndroidStudioProjects/ASS_MaiHula/app/src/main/res/layout/activity_add_customer.xml" value="0.1" />
         <entry key="..\:/Users/amain/AndroidStudioProjects/ASS_MaiHula/app/src/main/res/layout/activity_edit_record.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/amain/AndroidStudioProjects/ASS_MaiHula/app/src/main/res/layout/activity_login.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/amain/AndroidStudioProjects/ASS_MaiHula/app/src/main/res/layout/activity_main.xml" value="0.14402173913043478" />
-        <entry key="..\:/Users/amain/AndroidStudioProjects/ASS_MaiHula/app/src/main/res/layout/activity_new_item_list.xml" value="0.1" />
+        <entry key="..\:/Users/amain/AndroidStudioProjects/ASS_MaiHula/app/src/main/res/layout/activity_new_item_list.xml" value="0.22" />
+        <entry key="..\:/Users/amain/AndroidStudioProjects/ASS_MaiHula/app/src/main/res/layout/activity_register.xml" value="0.19010416666666666" />
         <entry key="..\:/Users/amain/AndroidStudioProjects/ASS_MaiHula/app/src/main/res/layout/activity_splash_screen.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/amain/AndroidStudioProjects/ASS_MaiHula/app/src/main/res/layout/activity_update.xml" value="0.25" />
+        <entry key="..\:/Users/amain/AndroidStudioProjects/ASS_MaiHula/app/src/main/res/layout/items.xml" value="0.21" />
+        <entry key="..\:/Users/amain/AndroidStudioProjects/ASS_MaiHula/app/src/main/res/layout/my_row.xml" value="0.1358695652173913" />
+        <entry key="..\:/Users/amain/AndroidStudioProjects/ASS_MaiHula/app/src/main/res/layout/testing.xml" value="0.1358695652173913" />
         <entry key="..\:/Users/amain/AndroidStudioProjects/ASS_MaiHula/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

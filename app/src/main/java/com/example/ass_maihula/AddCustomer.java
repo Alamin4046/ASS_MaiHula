@@ -35,11 +35,16 @@ public class AddCustomer extends AppCompatActivity {
         add_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                MyDBHelper db = new MyDBHelper(AddCustomer.this);
-                db.addcustomer(name_input.getText().toString().trim(),phone_input.getText().toString().trim(),address_input.getText().toString().trim());
-                Intent intent = new Intent(AddCustomer.this,MainActivity.class);
-                startActivity(intent);
-                finish();
+                if(name_input.length() ==0){
+                    name_input.setError("Enter name");
+                }
+                else {
+                    MyDBHelper db = new MyDBHelper(AddCustomer.this);
+                    db.addcustomer(name_input.getText().toString().trim(), phone_input.getText().toString().trim(), address_input.getText().toString().trim());
+                    Intent intent = new Intent(AddCustomer.this, MainActivity.class);
+                    startActivity(intent);
+                    finish();
+                }
             }
         });
     }

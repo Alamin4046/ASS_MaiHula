@@ -25,7 +25,8 @@
                 android:text="items"
                 android:textColor="#000000"
                 android:textSize="20sp"
-                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.501"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -33,50 +34,52 @@
                 android:id="@+id/date"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="104dp"
-                android:layout_marginLeft="104dp"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="24dp"
                 android:text="02-03-2022"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/qtty" />
+                app:layout_constraintTop_toBottomOf="@+id/items1" />
 
             <TextView
                 android:id="@+id/qtty"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="36dp"
-                android:layout_marginLeft="36dp"
-                android:layout_marginTop="24dp"
+                android:layout_marginStart="108dp"
+                android:layout_marginLeft="108dp"
                 android:text="Quantity"
                 android:textColor="#000000"
-                app:layout_constraintStart_toEndOf="@+id/items1"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintBottom_toTopOf="@+id/date"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/items1"
+                app:layout_constraintVertical_bias="0.0" />
 
             <TextView
                 android:id="@+id/price"
                 android:layout_width="32dp"
                 android:layout_height="22dp"
-                android:layout_marginStart="104dp"
-                android:layout_marginLeft="104dp"
-                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
                 android:text="Price"
                 android:textColor="#000000"
-                app:layout_constraintStart_toEndOf="@+id/qtty"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/qtty"
+                app:layout_constraintHorizontal_bias="0.392"
+                app:layout_constraintStart_toStartOf="parent" />
 
             <TextView
                 android:id="@+id/Tprice"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="64dp"
-                android:layout_marginEnd="92dp"
-                android:layout_marginRight="92dp"
                 android:padding="10dp"
                 android:text="Total Price"
                 android:textColor="#000000"
                 android:textSize="15sp"
+                app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintHorizontal_bias="0.503"
+                app:layout_constraintStart_toEndOf="@+id/qtty"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.652" />
 
             <ImageView
                 android:id="@+id/image_delete"

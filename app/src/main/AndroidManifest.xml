@@ -10,8 +10,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ASS_MaiHula">
         <activity
+            android:name=".Dashboard2"
+            android:exported="false" />
+        <activity
+            android:name=".Register"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false"></activity>
+        <activity
             android:name=".MainActivity"
-            android:exported="true" />
+            android:exported="false">
+
+        </activity>
         <activity
             android:name=".EditRecord"
             android:exported="false" />
@@ -23,8 +34,8 @@
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".SplashScreen"
-            android:label="ASS_MAIHULA"
-            android:exported="true">
+            android:exported="true"
+            android:label="ASS_MAIHULA">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
